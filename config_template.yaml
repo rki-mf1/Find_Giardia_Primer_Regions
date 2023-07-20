@@ -1,0 +1,12 @@
+fasta_dir: /path/to/fastas
+fastq_dir: /path/to/fastqs
+samplesheet: /path/to/sample.txt
+outdir: /path/out
+minlen: 1000
+min_ash: 0.8
+min_number_reads: 20
+iso_regex: (.+)_contig.* #regex to grab iso name from contig accessions used in FASTA headers (iso name has to be pattern group 1)
+sliding_window_diff: 701
+references:
+  ref: /path/to/Reference/reference.fasta
+  ref2:  /path/to/Reference/reference2.fasta
